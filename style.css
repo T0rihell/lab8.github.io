@@ -86,3 +86,45 @@ h1, h2 {
     margin-top: 20px;
 }
 
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .number-circle {
+        width: 80px;
+        height: 80px;
+        font-size: 32px;
+        border-width: 3px;
+    }
+
+    .score-box {
+        width: 70px;
+        font-size: 20px;
+        padding: 6px 0;
+    }
+
+    button {
+        width: 90%;
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 5px 0 10px;
+    }
+}
+
+
